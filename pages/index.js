@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
-  AiFillTwitterCircle,
+  AiFillGithub,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiOutlineMail,
 } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.jpg";
@@ -67,9 +67,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+          <a href="https://github.com/B-Houssem"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/houssem-eddine-bendaas-11319425b/"><AiFillLinkedin /></a>
+            <a href="mailto:houssembendaas00@gmail.com"><AiOutlineMail /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
