@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex  gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full hover:w-screen">
               <Image
                 src={design}
                 width={100}
@@ -117,7 +117,7 @@ export default function Home() {
                 TailwindCSS
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full hover:w-screen">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Backend development
@@ -135,7 +135,7 @@ export default function Home() {
                 Springboot
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-b from-blue-950 to-blue-500 w-full hover:w-screen">
               <Image
                 src={consulting}
                 width={100}
